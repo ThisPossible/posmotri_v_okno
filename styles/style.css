@@ -188,11 +188,11 @@ ol {
 }
 
 .search-form__checkbox:checked + .search-form__pseudo-checkbox::before {
-  position: absolute;
   content: "";
+  display: inline-block;
   width: 15px;
   height: 15px;
-  inset: 1px;
+  margin: 1px;
   background-color: #fff;
   text-decoration: none;
 }
@@ -219,6 +219,7 @@ ol {
 }
 
 .title {
+  font-family: "Oswald", sans-serif;
   font-weight: 700;
   font-size: 75px;
   line-height: 94%;
