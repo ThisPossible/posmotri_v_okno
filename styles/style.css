@@ -99,11 +99,6 @@ ol {
   margin-bottom: 16px;
 }
 
-.preloader-template {
-  position: absolute;
-  content: "";
-}
-
 .result__video {
   object-fit: cover;
   object-position: center;
